@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto p-8">
     <h1 class="text-4xl font-bold mb-4">Contact Me</h1>
-    <form name="contact" method="POST" data-netlify="true" class="flex flex-col gap-4 max-w-md mx-auto">
+    <form name="contact" method="POST" data-netlify="true" class="flex flex-col gap-4 max-w-md mx-auto" netlify>
       <input type="hidden" name="form-name" value="contact" />
       <label for="name" class="text-lg">Name:</label>
       <input type="text" id="name" name="name" required class="p-2 border rounded" />
